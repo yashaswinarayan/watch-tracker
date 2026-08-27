@@ -3,14 +3,13 @@ import requests
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-DISCOUNT_THRESHOLD = 60  # Percentage discount threshold
+DISCOUNT_THRESHOLD = 60  # Tracks deals >= 60% off
 
 
 def send_telegram(message):
   url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-  requests.post(
-      url, json={"chat_id": CHAT_ID, "text": message, "parse_mode": "Markdown"}
-  )
+  payload = {"chat_id": CHAT_ID, "text": message, "parse_mode": "Markdown"}
+  requests.post(url, json=payload, timeout=10)
 
 
 def check_deals():
@@ -21,7 +20,7 @@ def check_deals():
   while True:
     url = f"https://casiostore.bhawar.com/products.json?limit=250&page={page}"
     try:
-      response = requests.get(url, headers=headers, timeout=10)
+      response = requests.get(url, headers=headers, timeout=15)
       products = response.json().get("products", [])
     except Exception:
       break
@@ -45,10 +44,10 @@ def check_deals():
   if deals:
     for title, price, compare_at, discount, handle in deals:
       msg = (
-          f"🚨 *Casio Deal Found ({discount:.0f}% OFF)!*\n\n"
+          f"🚨 *Casio Deal Alert ({discount:.0f}% OFF)!*\n\n"
           f"*{title}*\n"
           f"💰 Price: ₹{price:,.0f} (MRP: ₹{compare_at:,.0f})\n"
-          f"🔗 [Buy Now](https://casiostore.bhawar.com/products/{handle})"
+          f"🔗 https://casiostore.bhawar.com/products/{handle}"
       )
       send_telegram(msg)
 
