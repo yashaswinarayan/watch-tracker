@@ -2,9 +2,9 @@ name: Casio Discount Monitor
 
 on:
   schedule:
-    # Runs automatically every 30 minutes
-    - cron: '*/30 * * * *'
-  workflow_dispatch: # Allows manual trigger
+    # Runs at minutes 7, 22, 37, 52 (every 15 mins off-peak)
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
 
 jobs:
   check:
@@ -26,3 +26,4 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python tracker.py
+        
