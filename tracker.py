@@ -3,7 +3,7 @@ import requests
 
 BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-DISCOUNT_THRESHOLD = 60  # Tracks deals >= 60% off
+DISCOUNT_THRESHOLD = 20  # Tracks deals >= 60% off
 
 
 def send_telegram(message):
