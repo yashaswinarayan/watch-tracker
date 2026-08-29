@@ -1,8 +1,7 @@
-name: Casio Discount Monitor
+name: Watch Deals & Restock Monitor
 
 on:
   schedule:
-    # Runs at minutes 7, 22, 37, 52 (every 15 mins off-peak)
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
 
@@ -19,11 +18,16 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests beautifulsoup4
 
-      - name: Run Tracker
+      - name: Run Casio Tracker
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python tracker.py
-        
+
+      - name: Run HMT Tracker
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python hmt_tracker.py
