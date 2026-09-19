@@ -125,10 +125,16 @@
     "price": "5999.00",
     "available": false
   },
-  "47263679545493": {
-    "title": "VAYU BISON",
+  "48028675932309": {
+    "title": "VAYU BISON (NATO)",
     "handle": "vayu-bison",
     "price": "6999.00",
+    "available": false
+  },
+  "48028675965077": {
+    "title": "VAYU BISON (Bracelet + NATO)",
+    "handle": "vayu-bison",
+    "price": "8999.00",
     "available": false
   },
   "47096559599765": {
