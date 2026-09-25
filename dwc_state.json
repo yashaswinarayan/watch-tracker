@@ -129,25 +129,25 @@
     "title": "VAYU BISON (NATO / Black)",
     "handle": "vayu-bison",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "49973434843285": {
     "title": "VAYU BISON (NATO / White)",
     "handle": "vayu-bison",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "48028675965077": {
     "title": "VAYU BISON (Bracelet + NATO / Black)",
     "handle": "vayu-bison",
     "price": "8999.00",
-    "available": false
+    "available": true
   },
   "49973434876053": {
     "title": "VAYU BISON (Bracelet + NATO / White)",
     "handle": "vayu-bison",
     "price": "8999.00",
-    "available": false
+    "available": true
   },
   "47096559599765": {
     "title": "DWC Rubber Strap (Havelock 20mm)",
