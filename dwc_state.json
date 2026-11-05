@@ -9,19 +9,19 @@
     "title": "DWC Everest III (9015) (Ice Blue)",
     "handle": "dwc-everest-iii-9015",
     "price": "16999.00",
-    "available": false
+    "available": true
   },
   "47616682623125": {
     "title": "DWC Everest III (9015) (Black)",
     "handle": "dwc-everest-iii-9015",
     "price": "16999.00",
-    "available": false
+    "available": true
   },
   "47616682721429": {
     "title": "DWC Everest III (9015) (Sunrise Gradient)",
     "handle": "dwc-everest-iii-9015",
     "price": "16999.00",
-    "available": false
+    "available": true
   },
   "47469407895701": {
     "title": "DWC Terra (Sandblasted SS)",
@@ -75,7 +75,7 @@
     "title": "DWC HAVELOCK (9039) (Black / Steel Bracelet)",
     "handle": "dwc-havelock-9039",
     "price": "15999.00",
-    "available": false
+    "available": true
   },
   "47388312633493": {
     "title": "DWC HAVELOCK (9039) (Gray / Rubber Strap)",
@@ -105,25 +105,25 @@
     "title": "DWC VAYU IV (Black / 36mm)",
     "handle": "dwc-vayu-iv",
     "price": "5999.00",
-    "available": false
+    "available": true
   },
   "47265713619093": {
     "title": "DWC VAYU IV (Black / 40mm)",
     "handle": "dwc-vayu-iv",
     "price": "5999.00",
-    "available": false
+    "available": true
   },
   "47265713651861": {
     "title": "DWC VAYU IV (Stainless Steel / 36mm)",
     "handle": "dwc-vayu-iv",
     "price": "5999.00",
-    "available": false
+    "available": true
   },
   "47265713684629": {
     "title": "DWC VAYU IV (Stainless Steel / 40mm)",
     "handle": "dwc-vayu-iv",
     "price": "5999.00",
-    "available": false
+    "available": true
   },
   "48028675932309": {
     "title": "VAYU BISON (NATO / Black)",
@@ -165,7 +165,7 @@
     "title": "TATA SIERRA X DELHI WATCH COMPANY (Black)",
     "handle": "tata-sierra-x-delhi-watch-company",
     "price": "16999.00",
-    "available": false
+    "available": true
   },
   "47028683571349": {
     "title": "TATA SIERRA X DELHI WATCH COMPANY (White)",
@@ -249,19 +249,19 @@
     "title": "DWC EchoStar (Black)",
     "handle": "dwc-echostar",
     "price": "14999.00",
-    "available": false
+    "available": true
   },
   "45998995767445": {
     "title": "DWC EchoStar (Blue)",
     "handle": "dwc-echostar",
     "price": "14999.00",
-    "available": false
+    "available": true
   },
   "45998995800213": {
     "title": "DWC EchoStar (Green)",
     "handle": "dwc-echostar",
     "price": "14999.00",
-    "available": false
+    "available": true
   },
   "46606910849173": {
     "title": "DWC TRIPLE CROWN (White)",
@@ -393,54 +393,54 @@
     "title": "DWC Devanagari Chronograph (Mint Green)",
     "handle": "dwc-devanagari-chronograph",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "44031867551893": {
     "title": "DWC Devanagari Chronograph (Blue)",
     "handle": "dwc-devanagari-chronograph",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "44031867519125": {
     "title": "DWC Devanagari Chronograph (Burgundy)",
     "handle": "dwc-devanagari-chronograph",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "44031867584661": {
     "title": "DWC Devanagari Chronograph (White)",
     "handle": "dwc-devanagari-chronograph",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "47655541276821": {
     "title": "DWC Devanagari Chronograph (Lilac)",
     "handle": "dwc-devanagari-chronograph",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "43196096807061": {
     "title": "DWC Everest III (8215) (Black)",
     "handle": "dwc-everest-summit-series",
     "price": "9999.00",
-    "available": false
+    "available": true
   },
   "44195702472853": {
     "title": "DWC Everest III (8215) (Salmon)",
     "handle": "dwc-everest-summit-series",
     "price": "9999.00",
-    "available": false
+    "available": true
   },
   "43196096774293": {
     "title": "DWC Everest III (8215) (Ice Blue)",
     "handle": "dwc-everest-summit-series",
     "price": "9999.00",
-    "available": false
+    "available": true
   },
   "46133263368341": {
     "title": "DWC Everest III (8215) (Sunrise Gradient)",
     "handle": "dwc-everest-summit-series",
     "price": "9999.00",
-    "available": false
+    "available": true
   }
 }
