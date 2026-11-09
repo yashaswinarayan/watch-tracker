@@ -249,7 +249,7 @@
     "title": "DWC EchoStar (Black)",
     "handle": "dwc-echostar",
     "price": "14999.00",
-    "available": false
+    "available": true
   },
   "45998995767445": {
     "title": "DWC EchoStar (Blue)",
