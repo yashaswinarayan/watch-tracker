@@ -135,7 +135,7 @@
     "title": "VAYU BISON (NATO / White)",
     "handle": "vayu-bison",
     "price": "6999.00",
-    "available": false
+    "available": true
   },
   "48028675965077": {
     "title": "VAYU BISON (Bracelet + NATO / Black)",
@@ -147,7 +147,7 @@
     "title": "VAYU BISON (Bracelet + NATO / White)",
     "handle": "vayu-bison",
     "price": "8999.00",
-    "available": false
+    "available": true
   },
   "47096559599765": {
     "title": "DWC Rubber Strap (Havelock 20mm)",
@@ -177,25 +177,25 @@
     "title": "DWC x Timegrapher -  Tithi (Green)",
     "handle": "dwc-tithi",
     "price": "5499.00",
-    "available": false
+    "available": true
   },
   "46909732782229": {
     "title": "DWC x Timegrapher -  Tithi (Blue)",
     "handle": "dwc-tithi",
     "price": "5499.00",
-    "available": false
+    "available": true
   },
   "46909732814997": {
     "title": "DWC x Timegrapher -  Tithi (Yellow - Tamil)",
     "handle": "dwc-tithi",
     "price": "5499.00",
-    "available": false
+    "available": true
   },
   "46909732847765": {
     "title": "DWC x Timegrapher -  Tithi (Salmon - Malayalam)",
     "handle": "dwc-tithi",
     "price": "5499.00",
-    "available": false
+    "available": true
   },
   "45062308069525": {
     "title": "DWC Villianur (Turquoise Blue)",
