@@ -329,14 +329,14 @@
     "price": "8499.00",
     "available": false
   },
-  "47388320399509": {
-    "title": "DWC Havelock (8215) (Gradient Aqua / Rubber Strap)",
+  "46283870175381": {
+    "title": "DWC Havelock (8215) (Black / Rubber Strap)",
     "handle": "dwc-havelock",
     "price": "9999.00",
     "available": false
   },
-  "47388320432277": {
-    "title": "DWC Havelock (8215) (Gradient Aqua / Bracelet)",
+  "44867702784149": {
+    "title": "DWC Havelock (8215) (Black / Bracelet)",
     "handle": "dwc-havelock",
     "price": "10999.00",
     "available": true
@@ -353,17 +353,17 @@
     "price": "10999.00",
     "available": true
   },
-  "46283870175381": {
-    "title": "DWC Havelock (8215) (Black / Rubber Strap)",
+  "47388320399509": {
+    "title": "DWC Havelock (8215) (Gradient Aqua / Rubber Strap)",
     "handle": "dwc-havelock",
     "price": "9999.00",
-    "available": true
+    "available": false
   },
-  "44867702784149": {
-    "title": "DWC Havelock (8215) (Black / Bracelet)",
+  "47388320432277": {
+    "title": "DWC Havelock (8215) (Gradient Aqua / Bracelet)",
     "handle": "dwc-havelock",
     "price": "10999.00",
-    "available": true
+    "available": false
   },
   "46283870273685": {
     "title": "DWC Havelock (8215) (Gray / Rubber Strap)",
